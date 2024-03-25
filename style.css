@@ -1,0 +1,58 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+/* background-color: #BEFE7F; */
+margin: 0;
+padding: 0;
+text-align: center;
+}
+.firstPart{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.cenImg{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.cardImg{
+    width: 350px;
+    height: auto;
+}
+.read{
+    color:blue;
+    margin-top: -35px ;
+}
+.cardmain{
+    text-decoration: none;
+    text-align: left;
+}
+
+.divtext{
+    text-align:center ;
+    margin-left: 13% ;
+    margin-right: 13% ;
+    margin-top: 10px;
+}
+.footic{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.icon{
+margin: 10%;
+padding: 20px;
+ }
+.ftic{
+    margin:0 17px;
+
+ }
+
+ @media only screen and (max-width: 960px){
+    .firstPart2{
+        display:flex;
+        flex-direction: column;
+    }
+
+
+ }
